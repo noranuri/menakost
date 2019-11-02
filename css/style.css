@@ -616,7 +616,6 @@ footer#home_footer {
   background-position: center;
   background-size: 420px;
   background-repeat: no-repeat;
-
   opacity: 0.75;
   color: white;
   /* max-width: 300px; */
@@ -641,6 +640,7 @@ footer#home_footer {
 
 .closebtn:hover {
   /* color: black; */
+  text-decoration: underline;
 }
 /*  */
 /*  */
