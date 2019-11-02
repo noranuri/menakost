@@ -114,6 +114,7 @@ button.slide-left {
 @media screen and (min-width: 800px) {
   .slides-container {
     width: 80vw;
+    width: 720px;
     margin: -3em auto 5em auto;
   }
 }
@@ -121,5 +122,6 @@ button.slide-left {
 @media screen and (min-width: 1000px) {
   .slides-container {
     width: 50vw;
+    width: 720px;
   }
 }

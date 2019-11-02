@@ -40,3 +40,5 @@ function Function1() {
 function Function2() {
   document.getElementById("myDropdown2").classList.toggle("show");
 }
+
+// pop up no cookies
