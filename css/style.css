@@ -555,6 +555,44 @@ footer#home_footer {
   font-weight: lighter;
 } */
 
+/* cookie banner */
+/*  */
+.alert {
+  padding: 2em;
+  background-color: var(--darkColor1);
+  background-image: url(pexels-photo-1848973.jpg);
+  background-position: center;
+  background-size: 420px;
+  background-repeat: no-repeat;
+  opacity: 0.75;
+  color: white;
+  /* max-width: 300px; */
+  max-width: 400px;
+  float: right;
+  font-size: 0.75em;
+  /* text-align: center; */
+  position: fixed;
+  bottom: 0em;
+  right: 0em;
+}
+
+.closebtn {
+  /* margin-left: 15px; */
+  color: white;
+  float: right;
+  font-size: 2em;
+  line-height: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  /* color: black; */
+  text-decoration: underline;
+}
+/*  */
+/*  */
+
 /*  */
 /* MEDIA QUERY */
 /*  */
