@@ -5,6 +5,7 @@
 //
 //  JQUERY
 // jquery  toggle menu button
+
 // src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
 
 $(document).ready(function() {
@@ -40,5 +41,3 @@ function Function1() {
 function Function2() {
   document.getElementById("myDropdown2").classList.toggle("show");
 }
-
-// pop up no cookies
