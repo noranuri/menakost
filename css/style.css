@@ -29,6 +29,7 @@ body {
   font-weight: normal; */
   line-height: 1.5em;
   font-family: "Merriweather", serif;
+  font-family: "Noto Serif JP", serif;
   font-weight: lighter;
 }
 
@@ -49,6 +50,7 @@ h1,
 h2,
 h3 {
   font-family: "Merriweather", serif;
+  font-family: "Noto Serif JP", serif;
   font-weight: lighter;
 }
 h1 {
@@ -259,6 +261,7 @@ blockquote {
 
 blockquote p {
   font-family: "Merriweather", serif;
+  font-family: "Noto Serif JP", serif;
   font-weight: lighter;
   font-style: italic;
   font-size: 1.2em;
@@ -530,6 +533,7 @@ a.button-img:hover {
   padding: 1em;
   font-size: 1em;
   font-family: "Merriweather", serif;
+  font-family: "Noto Serif JP", serif;
   font-weight: lighter;
 }
 
