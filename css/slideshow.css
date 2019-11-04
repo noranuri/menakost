@@ -24,8 +24,9 @@
 .mySlides#hoch img {
   /* max-height: 477px;
   width: auto; */
-  max-width: 350px;
+  /* max-width: 350px; */
   height: auto;
+
   margin: auto;
 }
 
@@ -64,7 +65,7 @@ body.projekt1 .TextImBild span {
 }
 
 .TextImBild#hoch span {
-  max-width: 350px;
+  /* max-width: 350px; */
   left: 50%;
   transform: translateX(-50%);
 }

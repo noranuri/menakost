@@ -168,11 +168,19 @@ div.fixed-header {
   /* background-color: green; */
 }
 
-.fixed-header header h1,
-.fixed-header header h3 {
+.fixed-header header h1 {
   max-width: 720px;
   /* background-color: indigo; */
   margin: 0em auto 0em auto;
+}
+
+.fixed-header header h3 {
+  max-width: 720px;
+  margin-top: 0.5 auto 0em auto;
+}
+
+.schreibt {
+  font-size: 0.75em;
 }
 
 /* depending on fixed header */
@@ -457,7 +465,7 @@ section.internal-links {
 
 .main {
   margin: 2em;
-  margin: 0.7em;
+  margin: 1em;
 }
 .main section {
   /* text-align: center; */
@@ -684,6 +692,10 @@ footer#home_footer {
     padding-top: 0.5em;
   }
 
+  .schreibt {
+    font-size: 0.75em;
+  }
+
   header p {
     margin: 1em auto;
   }
@@ -713,6 +725,10 @@ footer#home_footer {
 
   /* main content */
   /* home, aboutme, contact, projekte, texte */
+  .main {
+    margin: 2em;
+  }
+
   .main-content {
     margin: 26em 0em 0em 0em;
   }
