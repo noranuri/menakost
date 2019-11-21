@@ -705,10 +705,12 @@ footer#home_footer {
     /* font-size: 5em; */
     font-size: 4em;
     padding-top: 0.5em;
+    letter-spacing: 0.05em;
   }
 
   .schreibt {
-    font-size: 0.75em;
+    font-size: 0.85em;
+    letter-spacing: 0em;
   }
 
   header p {
