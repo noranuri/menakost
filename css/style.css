@@ -126,6 +126,7 @@ header h1 {
   font-size: 3.5em;
   padding-top: 0.2em;
   line-height: 1.2em;
+  letter-spacing: 0.05em;
 }
 
 body.projekt1 header h1,
@@ -177,10 +178,12 @@ div.fixed-header {
 .fixed-header header h3 {
   max-width: 720px;
   margin-top: 0.5 auto 0em auto;
+  padding-left: 0.7em;
 }
 
 .schreibt {
   font-size: 0.75em;
+  letter-spacing: 0em;
 }
 
 /* depending on fixed header */
@@ -729,12 +732,13 @@ footer#home_footer {
     max-width: 800px;
   } */
 
-  /* .fixed-header header h1,
+  /* .fixed-header header h1, */
   .fixed-header header h3 {
-    max-width: 800px;
-    background-color: indigo;
+    /* max-width: 800px; */
+    /* background-color: indigo; */
     margin: 0em auto 0em auto;
-  } */
+    padding-left: 0em;
+  }
 
   .newImg {
     display: none;
@@ -866,6 +870,10 @@ footer#home_footer {
     top: 12em;
     padding-top: 2em;
   }
+
+  .fixed-header header h3 {
+    padding-left: 0em;
+  }
   .home .main-content,
   .aboutme .main-content,
   .contact .main-content,
@@ -930,6 +938,9 @@ footer#home_footer {
 
   header h3 {
     margin-top: 0.5em;
+  }
+  .fixed-header header h3 {
+    padding-left: 0em;
   }
 
   .right {
