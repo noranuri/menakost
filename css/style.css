@@ -650,9 +650,9 @@ footer#home_footer {
 .alert {
   padding: 2em;
   background-color: var(--darkColor0);
-  background-image: url(./images_div/cookie_gif_slowx1_2.gif);
+  background-image: url(./images_div/cookie_gifx1_v2.gif);
   background-position: bottom;
-  background-size: 420px;
+  background-size: 350px;
   background-repeat: no-repeat;
   opacity: 0.85;
   color: white;
