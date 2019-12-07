@@ -87,7 +87,7 @@ h5 a {
   z-index: -3;
 }
 
-body.texte .newImg,
+body.arbeitsproben .newImg,
 body.links .newImg {
   top: 2.2em;
 }
@@ -139,7 +139,7 @@ header p {
 }
 
 /* fixed header */
-/* home, about, contact, projekte, texte */
+/* home, about, contact, projekte, arbeitsproben */
 div.fixed-header {
   position: relative;
   z-index: -2;
@@ -178,7 +178,7 @@ div.fixed-header {
 }
 
 /* depending on fixed header */
-/* home, about, contact, projekte, texte */
+/* home, about, contact, projekte, arbeitsproben */
 .main-content {
   margin: 32em 0em 0em 0em;
   background-color: var(--lightColor1);
@@ -186,12 +186,12 @@ div.fixed-header {
   padding-bottom: 20em;
 }
 
-.texte .container {
+.arbeitsproben .container {
   margin-left: 15%;
   margin-right: 15%;
 }
 
-.texte .container img {
+.arbeitsproben .container img {
   max-height: 250px;
 }
 
@@ -204,14 +204,14 @@ div.fixed-header {
   border: 10px solid white;
 }
 
-.texte h5 {
+.arbeitsproben h5 {
   border-bottom: 0.25px solid var(--darkColor1);
   opacity: 0.75;
 }
 
 /* MAIN SECTION */
 /* CSS GRID (container)*/
-/* home, projekte, texte */
+/* home, projekte, arbeitsproben */
 
 .container {
   display: grid;
@@ -221,7 +221,7 @@ div.fixed-header {
   margin-top: 1.5em;
 }
 
-/* .texte .container {
+/* .arbeitsproben .container {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: repeat(auto-fit, auto);
 } */
@@ -728,7 +728,7 @@ footer#home_footer {
   }
 
   /* main content */
-  /* home, aboutme, contact, projekte, texte */
+  /* home, aboutme, contact, projekte, arbeitsproben */
   .main {
     margin: 2em;
   }
@@ -737,13 +737,13 @@ footer#home_footer {
     margin: 26em 0em 0em 0em;
   }
 
-  .texte .container {
+  .arbeitsproben .container {
     margin-left: 1.5em;
     margin-right: 1.5em;
   }
 
   /* css grid */
-  /* home, projekte, texte */
+  /* home, projekte, arbeitsproben */
   .container {
     grid-template-rows: repeat(auto-fit, auto);
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -857,7 +857,7 @@ footer#home_footer {
   .aboutme .main-content,
   .contact .main-content,
   .projekte .main-content,
-  .texte .main-content,
+  .arbeitsproben .main-content,
   .links .main-content {
     margin: 28em 0em 0em 0em;
   }
@@ -909,7 +909,7 @@ footer#home_footer {
   .container {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
-  .texte .container {
+  .arbeitsproben .container {
     margin-left: 0em;
     margin-right: 0em;
   }
