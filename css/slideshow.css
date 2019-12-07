@@ -6,7 +6,6 @@
 .slides-container {
   position: relative;
   width: minmax(1fr, 350px);
-  /* border: 2px solid #ffd320; */
   background-color: var(--lightColor1);
   margin: 3em auto 5em auto;
 }
@@ -55,13 +54,8 @@
 }
 
 body.projekt1 .TextImBild span {
-  /* background-color: hsla(0, 0%, 96%, 0.5);
-  position: absolute; */
-  /* bottom: 2.3em; */
   bottom: auto;
   top: 0em;
-
-  /* padding: 0.5em; */
 }
 
 .TextImBild#hoch span {
