@@ -9,10 +9,6 @@
   --darkColor1: #314045;
   --darkColor2: #588593;
   --darkColor3: #84a7a6;
-
-  /* --yellowColor: #ffd320;
-  --yellowColor2: #edd36c;
-  --blueColor: #006699; */
 }
 
 * {
@@ -25,8 +21,6 @@ body {
   font-size: 100%;
   color: var(--darkColor1);
   background-color: var(--lightColor1);
-  /* font-family: "Open Sans", sans-serif;
-  font-weight: normal; */
   line-height: 1.5em;
   font-family: "Merriweather", serif;
 
@@ -50,7 +44,6 @@ h1,
 h2,
 h3 {
   font-family: "Merriweather", serif;
-
   font-weight: lighter;
 }
 h1 {
@@ -70,7 +63,6 @@ h5 {
 }
 
 /* LINKS */
-
 a {
   color: var(--darkColor1);
 }
@@ -113,7 +105,6 @@ body.projekt3 .newImg {
 /* HEADER */
 /* all pages */
 /* projekt1, projekt2, projekt3 */
-
 header {
   text-align: center;
   text-align: left;
@@ -171,8 +162,8 @@ div.fixed-header {
 
 .fixed-header header h1 {
   max-width: 720px;
-  /* background-color: indigo; */
   margin: 0em auto 0em auto;
+  /* background-color: indigo; */
 }
 
 .fixed-header header h3 {
@@ -313,22 +304,22 @@ blockquote p {
 
 /* image aboutme */
 img#foto-mena {
-  /* max-width: 360px; */
   width: 720px;
   max-width: 100vw;
   text-align: left;
-
   /* width: 100%; */
+  /* max-width: 360px; */
 }
 div.center-img {
   margin: 0em auto 1em auto;
+  width: 720px;
+  max-width: 100vw;
+  background-color: var(--lightColor1);
+
   /* margin: 0em 0em 0em 12em; */
   /* text-align: center; */
   /* height: 245px; */
   /* max-width: 400px; */
-  width: 720px;
-  max-width: 100vw;
-  background-color: var(--lightColor1);
 }
 
 .aboutme .main-content {
@@ -346,7 +337,7 @@ section.aboutme {
 
 .aboutme p,
 .aboutme h2,
-.aboutme .list li a {
+.aboutme ul.list li a {
   max-width: 720px;
   margin: auto;
   padding: 1em;
@@ -369,13 +360,15 @@ section.internal-links {
   margin: 0em auto;
   width: 100%;
   max-width: 800px;
+  padding: 0.5em 0em;
+  line-height: 2em;
+
   /* text-align: center; */
   /* font-size: 1.2em; */
   /* background-color: var(--darkColor2); */
   /* opacity: 0.75; */
-  padding: 0.5em 0em;
-  line-height: 2em;
 }
+
 /* .list a {
   text-decoration: none;
   color: var(--lightColor0);
@@ -383,8 +376,8 @@ section.internal-links {
 
 .list li a:hover {
   background-color: var(--darkColor3);
-  /* opacity: 0.5; */
   padding: 0.5em;
+  /* opacity: 0.5; */
 }
 
 /* MAIN SECTION */
@@ -501,17 +494,6 @@ section.internal-links {
   margin-top: 1em;
 }
 
-/* projekt 1 - option color blue and yellow  */
-
-/* body.projekt1 {
-  background-color: var(--yellowColor2);
-  color: var(--blueColor);
-} */
-/* .projekt1 .main p > a {
-  text-decoration: none;
-  color: var(--yellowColor);
-} */
-
 /*  */
 /* BUTTONS */
 /* send mail button (conatct)*/
@@ -539,8 +521,8 @@ a.button1.mail:hover {
 }
 
 /* button with an image (projekt1)*/
-a.button-img:hover {
-  background: url(./final_looping_kl.jpg);
+.button-img:hover {
+  background: url(./looping_fisch_illustration.jpg);
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -612,7 +594,7 @@ a.button-img:hover {
 .projekt1 div.back-img {
   width: 100%;
   height: 20vh;
-  background: url("final_fische_kl Kopie.jpg");
+  background: url("fisch_illustration_2.jpg");
   background-size: contain;
   background-position-x: 25%;
   background-repeat: no-repeat;
@@ -650,17 +632,17 @@ footer#home_footer {
 .alert {
   padding: 2em;
   background-color: var(--darkColor0);
-  background-image: url(./images_div/cookie_gifx1_v2.gif);
+  background-image: url(./images_div/cookie.gif);
   background-position: bottom;
   background-size: 350px;
   background-repeat: no-repeat;
   opacity: 0.85;
   color: white;
 
-  /* max-width: 300px; */
   max-width: 400px;
   float: right;
   font-size: 0.75em;
+  /* max-width: 300px; */
   /* text-align: center; */
   position: fixed;
   bottom: 0em;
@@ -795,10 +777,6 @@ footer#home_footer {
     padding: 0.5em 0em;
   }
 
-  .contact-left {
-    padding: 0em;
-  }
-
   /* .img-box {
     max-width: 720px;
   } */
@@ -809,7 +787,7 @@ footer#home_footer {
     margin: 2em auto;
   }
 
-  .aboutme .list li a {
+  .aboutme ul.list li a {
     /* margin: 2em auto; */
     /* max-width: 800px; */
     padding: 0em;
@@ -917,6 +895,14 @@ footer#home_footer {
     font-size: 1em;
   }
 
+  header {
+    margin-top: 14em;
+  }
+
+  .fixed-header header {
+    padding-top: 2em;
+  }
+
   .container div h2 {
     font-size: 1.5em;
   }
@@ -950,5 +936,9 @@ footer#home_footer {
     max-width: 100vw;
     margin: 0em;
     margin-right: 1em;
+  }
+
+  .contact-left blockquote {
+    margin-left: -1em;
   }
 }
