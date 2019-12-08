@@ -149,7 +149,7 @@ div.fixed-header {
 
 .fixed-header header {
   margin: 0em auto 0em auto;
-  padding: 3.5em 0.7em 3.5em 0.7em;
+  padding: 3.5em 0em 3.5em 0em;
   width: 100vw;
   text-align: center;
   text-align: left;
@@ -157,18 +157,20 @@ div.fixed-header {
   top: 14em;
   left: 50%;
   transform: translateX(-50%);
+
   /* background-color: green; */
 }
 
 .fixed-header header h1 {
   max-width: 720px;
-  margin: 0em auto 0em auto;
+  margin: 0em 0em 0em 0em;
+  padding-left: 0.3em;
   /* background-color: indigo; */
 }
 
 .fixed-header header h3 {
   max-width: 720px;
-  margin-top: 0.5 auto 0em auto;
+  margin-top: 0.5 0em 0em 0em;
   padding-left: 0.7em;
 }
 
@@ -675,7 +677,7 @@ footer#home_footer {
     padding: 3.5em 0em 3.5em 0em;
   }
 
-  /* .fixed-header header h1, */
+  .fixed-header header h1,
   .fixed-header header h3 {
     padding-left: 0em;
     margin-top: 0.5em;
@@ -801,7 +803,7 @@ footer#home_footer {
   }
 
   .fixed-header header h3 {
-    padding-left: 0em;
+    /* padding-left: 0em; */
   }
   .home .main-content,
   .aboutme .main-content,
@@ -871,7 +873,7 @@ footer#home_footer {
     margin-top: 0.5em;
   }
   .fixed-header header h3 {
-    padding-left: 0em;
+    /* padding-left: 0em; */
   }
 
   .right {
