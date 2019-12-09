@@ -219,21 +219,15 @@ div.fixed-header {
 /* home, projekte, arbeitsproben */
 
 .container {
-  display: -ms-grid;
   display: grid;
   grid-gap: 1.5em;
-  -ms-grid-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  -ms-grid-rows: repeat(auto-fit, auto);
-  margin-top: 1.5em;
   grid-template-rows: repeat(auto-fit, auto);
   margin-top: 1.5em;
 }
 
 .arbeitsproben .container {
-  -ms-grid-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  -ms-grid-rows:repeat(auto-fit, auto);
   grid-template-rows: repeat(auto-fit, auto);
 }
 
@@ -601,7 +595,7 @@ body.projekt1 .bottom {
 footer#home_footer {
   padding: 2.5em;
   text-align: center;
-  background-color: var(--darkColor2);
+  background-color: var(--darkColor2) !important;
   opacity: 1;
   /* line-height: 3em; */
   font-size: 0.7em;
@@ -713,9 +707,7 @@ footer#home_footer {
   /* css grid */
   /* home, projekte, arbeitsproben */
   .container {
-     -ms-grid-rows:repeat(auto-fit, auto);
     grid-template-rows: repeat(auto-fit, auto);
-    -ms-grid-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     margin: 1.5em 1.5em 1.5em 1.5em;
   }
@@ -869,7 +861,6 @@ footer#home_footer {
     font-size: 1.5em;
   }
   .container {
-    -ms-grid-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
   .arbeitsproben .container {

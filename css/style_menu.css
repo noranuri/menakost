@@ -13,7 +13,7 @@ div.button {
   width: 100%;
   text-align: left;
   font-size: 1.2em;
-  background-color: var(--lightColor0);
+  background-color: var(--lightColor0) !important;
 }
 
 /* MENU BUTTON */
@@ -25,7 +25,7 @@ div.button {
   z-index: 0;
   width: 100%;
   height: 5em;
-  background-color: var(--darkColor2);
+  background-color: var(--darkColor2) !important;
 }
 
 div.button a {
@@ -33,7 +33,7 @@ div.button a {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--lightColor1);
+  color: var(--lightColor1) !important;
   padding-top: 2em;
   height: 5em;
   font-weight: lighter;
@@ -48,7 +48,7 @@ div.button p {
 /* style nav */
 
 nav {
-  background-color: var(--lightColor0);
+  background-color: var(--lightColor0) !important;
   margin-top: 5.9em;
   top: 0em;
   position: fixed;
@@ -67,7 +67,7 @@ nav {
 .topnav a {
   float: left;
   display: block;
-  color: var(--darkColor2);
+  color: var(--darkColor2) !important;
   padding: 10px 20px 10px 10px;
   text-decoration: none;
   font-size: 1em;
@@ -83,7 +83,7 @@ button a {
 
 /*  highlight the current page */
 .active {
-  background-color: var(--lightColor2);
+  background-color: var(--lightColor2) !important;
 }
 
 /* menu icon */
@@ -109,7 +109,7 @@ i.fa {
 
 /* dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
-  color: var(--darkColor2);
+  color: var(--darkColor2) !important;
   font-size: 1em;
   border: none;
   outline: none;
@@ -125,7 +125,7 @@ i.fa {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: var(--lightColor0);
+  background-color: var(--lightColor0) !important;
   min-width: 130px;
   z-index: 1;
 }
@@ -143,14 +143,14 @@ i.fa {
 /* background of menu-lins on hover */
 .topnav a:hover:not(.active),
 .topnav .dropbtn a:hover:not(.active) {
-  color: var(--lightColor0);
-  background-color: var(--darkColor3);
+  color: var(--lightColor0) !important;
+  background-color: var(--darkColor3) !important;
 }
 
 /* background of dropdown links on hover */
 .dropdown-content a:hover:not(.active) {
-  color: var(--lightColor0);
-  background-color: var(--darkColor3);
+  color: var(--lightColor0) !important;
+  background-color: var(--darkColor3) !important;
   opacity: 0.5;
 }
 
@@ -171,7 +171,7 @@ i.fa {
     z-index: 2;
     width: 100%;
     height: 4em;
-    background-color: var(--darkColor3);
+    background-color: var(--darkColor3) !important;
   }
   div.button a {
     padding-top: 1.2em;
@@ -218,7 +218,7 @@ i.fa {
 
   .topnav .dropdown-content {
     position: relative;
-    background-color: var(--lightColor1);
+    background-color: var(--lightColor1) !important;
     opacity: 0.75;
   }
 
@@ -226,7 +226,7 @@ i.fa {
     float: right;
     margin-top: -25px;
     padding: 6px 20px 6px 20px;
-    background-color: var(--lightColor1);
+    background-color: var(--lightColor1) !important;
     z-index: 100;
   }
 
