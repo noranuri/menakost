@@ -6,7 +6,7 @@
 .slides-container {
   position: relative;
   width: minmax(1fr, 350px);
-  background-color: var(--lightColor1);
+  background-color: #f0f0f0;
   margin: 3em auto 5em auto;
 }
 
