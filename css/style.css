@@ -197,7 +197,7 @@ div.fixed-header {
 }
 
 .arbeitsproben .container img {
-  max-height: 250px;
+  max-height: 60%;
 }
 
 .container div img.img-hoch {
