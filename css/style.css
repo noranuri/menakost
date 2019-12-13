@@ -87,7 +87,7 @@ h5 a {
   z-index: -3;
 }
 
-body.arbeitsproben .newImg,
+body.texte .newImg,
 body.links .newImg {
   top: 2.2em;
 }
@@ -139,7 +139,7 @@ header p {
 }
 
 /* fixed header */
-/* home, about, contact, projekte, arbeitsproben */
+/* home, about, contact, projekte, texte */
 div.fixed-header {
   position: relative;
   z-index: -2;
@@ -181,7 +181,7 @@ div.fixed-header {
 }
 
 /* depending on fixed header */
-/* home, about, contact, projekte, arbeitsproben */
+/* home, about, contact, projekte, texte */
 .main-content {
   margin: 32em 0em 0em 0em;
   background-color: #f0f0f0;
@@ -189,14 +189,14 @@ div.fixed-header {
   padding-bottom: 20em;
 }
 
-.arbeitsproben .container {
+.texte .container {
   /* margin-left: 15%;
   margin-right: 15%; */
   margin-left: 1.5em;
   margin-right: 1.5em;
 }
 
-.arbeitsproben .container img {
+.texte .container img {
   max-height: 60%;
 }
 
@@ -209,14 +209,14 @@ div.fixed-header {
   border: 10px solid white;
 }
 
-.arbeitsproben h5 {
+.texte h5 {
   border-bottom: 0.25px solid #314045;
   opacity: 0.75;
 }
 
 /* MAIN SECTION */
 /* CSS GRID (container)*/
-/* home, projekte, arbeitsproben */
+/* home, projekte, texte */
 
 .container {
   display: grid;
@@ -226,7 +226,7 @@ div.fixed-header {
   margin-top: 1.5em;
 }
 
-.arbeitsproben .container {
+.texte .container {
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 
   grid-template-rows: repeat(auto-fit, auto);
@@ -691,7 +691,7 @@ footer#home_footer {
   }
 
   /* main content */
-  /* home, aboutme, contact, projekte, arbeitsproben */
+  /* home, aboutme, contact, projekte, texte */
   .main {
     margin: 2em;
   }
@@ -700,13 +700,13 @@ footer#home_footer {
     margin: 26em 0em 0em 0em;
   }
 
-  .arbeitsproben .container {
+  .texte .container {
     margin-left: 1.5em;
     margin-right: 1.5em;
   }
 
   /* css grid */
-  /* home, projekte, arbeitsproben */
+  /* home, projekte, texte */
   .container {
     grid-template-rows: repeat(auto-fit, auto);
 
@@ -813,7 +813,7 @@ footer#home_footer {
   .aboutme .main-content,
   .contact .main-content,
   .projekte .main-content,
-  .arbeitsproben .main-content,
+  .texte .main-content,
   .links .main-content {
     margin: 28em 0em 0em 0em;
   }
@@ -865,7 +865,7 @@ footer#home_footer {
   .container {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
-  .arbeitsproben .container {
+  .texte .container {
     margin-left: 0em;
     margin-right: 0em;
   }
