@@ -23,7 +23,6 @@ body {
   background-color: #f0f0f0;
   line-height: 1.5em;
   font-family: "Merriweather", serif;
-
   font-weight: lighter;
 }
 
@@ -92,7 +91,7 @@ body.links .newImg {
   top: 2.2em;
 }
 
-/* body.projekt1 .newImg {
+body.projekt1 .newImg {
   margin-top: -4em;
 }
 body.projekt2 .newImg {
@@ -100,7 +99,7 @@ body.projekt2 .newImg {
 }
 body.projekt3 .newImg {
   margin-top: -1em;
-} */
+}
 
 /* HEADER */
 /* all pages */
@@ -594,12 +593,37 @@ body.projekt1 .bottom {
 /* FOOTER */
 /* all pages */
 footer#home_footer {
-  padding: 2.5em;
+  padding-top: 2.5em;
   text-align: center;
   background-color: #588593;
   opacity: 1;
   /* line-height: 3em; */
   font-size: 0.7em;
+}
+
+/* back to top button */
+#myTopBtn {
+  /* display: none; */
+  /* position: fixed; */
+  /* bottom: 20px; */
+  /* right: 30px; */
+  margin: 0 auto;
+  z-index: 99;
+  font-size: 1.15em;
+  border: none;
+  outline: none;
+  background-color: #84a7a6;
+  color: #314045;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 2px;
+  font-family: "Merriweather", serif;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+#myTopBtn:hover {
+  background-color: #fdfdfd;
 }
 
 /* cookie banner */
