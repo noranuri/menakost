@@ -744,13 +744,13 @@ footer#home_footer {
   .texte .container {
     margin-left: 1.5em;
     margin-right: 1.5em;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   }
 
   /* css grid */
   /* home, projekte, texte */
   .container {
     grid-template-rows: repeat(auto-fit, auto);
-
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     margin: 1.5em 1.5em 1.5em 1.5em;
   }
