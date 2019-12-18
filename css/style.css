@@ -300,13 +300,13 @@ blockquote p {
   max-width: 350px;
   position: relative;
   float: right;
-  margin-right: 1em;
+  margin-right: 0em;
   top: -17em;
 }
 
 .contact-left .right blockquote {
   background-color: #588593;
-  opacity: 1;
+  opacity: 0.75;
 }
 
 /* image aboutme */
@@ -386,6 +386,7 @@ section.internal-links {
 .contact .main-content {
   text-align: center;
   padding: 1.5em 0em 1.5em 0em;
+  padding: 0em;
   /* background-color: #fdfdfd; */
 }
 .impressum .main-content {
@@ -403,10 +404,10 @@ section.internal-links {
   text-align: left;
   margin-left: auto;
   margin-right: auto;
-  padding: 1em;
-  padding-bottom: 15em;
+  padding: 2.5em 2em 15em 2em;
   background-color: #f0f0f0;
-  opacity: 0.75;
+  background-color: rgb(240, 240, 240, 0.75);
+  /* opacity: 0.75; */
 }
 
 .impressum .contact-left {
@@ -498,12 +499,13 @@ a.button1 {
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
-  background-color: var(--lightColor2);
+  background-color: #bbdbb4;
   border: 0.5px solid #314045;
   border-radius: 0.2em;
   color: #314045;
   margin: 3em 0em;
   padding: 1em 2em;
+  opacity: 0.75;
 }
 a.button1:hover {
   background-color: #fdfdfd;
@@ -857,6 +859,7 @@ footer#home_footer {
   .texte .main-content,
   .links .main-content {
     margin: 28em 0em 0em 0em;
+    background-image: none;
   }
 
   header {
