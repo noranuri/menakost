@@ -213,6 +213,11 @@ div.fixed-header {
   opacity: 0.75;
 }
 
+.aboutme h5 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
 /* MAIN SECTION */
 /* CSS GRID (container)*/
 /* home, projekte, texte */
@@ -318,7 +323,7 @@ img#foto-mena {
   /* max-width: 360px; */
 }
 div.center-img {
-  margin: 0em auto 1em auto;
+  margin: 0em auto 0em auto;
   width: 720px;
   max-width: 100vw;
   background-color: #f0f0f0;
