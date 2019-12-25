@@ -2,6 +2,10 @@
 /*  */
 /* style_menu.css */
 
+/* fake-index-page */
+#fake {
+  display: none;
+}
 /*  */
 /* styles from old menu */
 /* main menu list items and menu-button*/
