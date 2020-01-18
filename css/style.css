@@ -617,7 +617,8 @@ body.projekt1 .bottom {
 /* style the breadcrumbs */
 footer#home_footer ol.breadcrumb {
   text-align: center;
-  padding-bottom: 40px;
+  padding: 20px 0px;
+  font-size: 1.2em;
 }
 ol.breadcrumb a {
   text-decoration: none;
@@ -850,6 +851,7 @@ footer#home_footer {
 
   footer#home_footer ol.breadcrumb {
     text-align: left;
+    padding-bottom: 20px;
   }
 }
 
