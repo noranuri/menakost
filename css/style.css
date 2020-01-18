@@ -614,6 +614,26 @@ body.projekt1 .bottom {
   margin-top: 0em;
 }
 
+/* style the breadcrumbs */
+footer#home_footer ol.breadcrumb {
+  text-align: center;
+  padding-bottom: 40px;
+}
+ol.breadcrumb a {
+  text-decoration: none;
+}
+ol.breadcrumb {
+  padding-left: 20px;
+}
+ol.breadcrumb li {
+  display: inline;
+  list-style: none;
+}
+
+#here {
+  color: #bbdbb4;
+}
+
 /* FOOTER */
 /* all pages */
 footer#home_footer {
@@ -822,6 +842,10 @@ footer#home_footer {
 
   .main section:last-child {
     margin-right: 0;
+  }
+
+  footer#home_footer ol.breadcrumb {
+    text-align: left;
   }
 }
 
