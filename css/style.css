@@ -622,6 +622,10 @@ footer#home_footer ol.breadcrumb {
 ol.breadcrumb a {
   text-decoration: none;
 }
+ol.breadcrumb li a:hover {
+  color: #bbdbb4;
+}
+
 ol.breadcrumb {
   padding-left: 20px;
 }
