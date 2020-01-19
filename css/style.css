@@ -496,6 +496,19 @@ section.internal-links {
   margin-top: 1em;
 }
 
+/* .main section.medienberichte {
+  background-color: #588593;
+  opacity: 0.75;
+  padding: 20px 0px 20px 20px;
+}
+
+.main section.medienberichte a,
+.main section.medienberichte li {
+  list-style: none;
+  text-decoration: none;
+  color: var(--lightColor1);
+} */
+
 /*  */
 /* BUTTONS */
 /* send mail button (conatct)*/
@@ -849,10 +862,10 @@ footer#home_footer {
     margin-right: 0;
   }
 
-  footer#home_footer ol.breadcrumb {
+  /* footer#home_footer ol.breadcrumb {
     text-align: left;
     padding-bottom: 20px;
-  }
+  } */
 }
 
 /* responsive small screen*/
