@@ -663,6 +663,11 @@ footer#home_footer {
   font-size: 0.7em;
 }
 
+footer a,
+footer #myTopBtn {
+  text-decoration: none;
+}
+
 /* back to top button */
 #myTopBtn {
   /* display: none; */
