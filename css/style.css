@@ -169,7 +169,7 @@ div.fixed-header {
 
 .fixed-header header h3 {
   max-width: 720px;
-  margin-top: 0.5em 0em 0em 0em;
+  margin-top: 0.5em;
   padding-left: 0.7em;
   padding-right: 0.7em;
 }
