@@ -701,7 +701,8 @@ footer #myTopBtn {
   background-image: url(./images_div/cookie.gif);
 
   background-position: bottom;
-  background-size: 350px;
+  /* background-size: 350px; */
+  height: 25%;
   background-repeat: no-repeat;
   opacity: 0.85;
   color: white;
@@ -729,6 +730,26 @@ footer #myTopBtn {
 .closebtn:hover {
   /* color: black; */
   text-decoration: underline;
+}
+
+body.page-not-found .alert {
+  background-color: #fdfdfd;
+  background-image: url(./images_div/cookie.gif);
+  background-position: bottom;
+  /* background-size: 350px; */
+  height: 300px;
+  width: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.85;
+  color: white;
+  position: relative;
+  float: left;
+}
+
+.page-not-found .contact-left {
+  background-color: #fdfdfd;
+  margin-top: 2em;
 }
 /*  */
 /*  */
