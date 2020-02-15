@@ -701,8 +701,8 @@ footer #myTopBtn {
   background-image: url(./images_div/cookie.gif);
 
   background-position: bottom;
-  /* background-size: 350px; */
-  height: 25%;
+  background-size: 350px;
+  /* height: 25%; */
   background-repeat: no-repeat;
   opacity: 0.85;
   color: white;
