@@ -732,13 +732,14 @@ footer #myTopBtn {
   text-decoration: underline;
 }
 
-body.page-not-found .alert {
+.page-not-found .alert {
   background-color: #fdfdfd;
   background-image: url(./images_div/cookie.gif);
   background-position: bottom;
   /* background-size: 350px; */
   height: 300px;
-  width: 450px;
+  min-width: 243px;
+  /* width: 450px; */
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.85;
@@ -947,6 +948,10 @@ body.page-not-found .alert {
   .alert {
     max-height: 120px;
     padding: 0.5em;
+  }
+
+  .page-not-found .alert {
+    min-height: 250px;
   }
 }
 /* font-size small*/
