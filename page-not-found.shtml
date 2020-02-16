@@ -69,7 +69,7 @@
     </div>
 
     <!-- HEADER -->
-    <div class="fixed-header">
+    <!-- <div class="fixed-header">
       <header>
         <section>
           <h1 class="heading1">
@@ -82,13 +82,13 @@
           </h3>
         </section>
       </header>
-    </div>
+    </div> -->
 
     <!-- MAIN CONTENT -->
 
     <div class="main-content">
       <div class="contact-left">
-        <h2>Error 404 - File not found</h2>
+        <h2>Error 404 - Page not found</h2>
         <br />
 
         <p>
