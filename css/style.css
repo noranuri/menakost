@@ -752,6 +752,17 @@ footer #myTopBtn {
   background-color: #fdfdfd;
   margin-top: 2em;
 }
+
+.page-not-found .contact-left a {
+  background-color: #588593;
+  padding: 20px 38px;
+  border-radius: 30px;
+}
+
+.page-not-found .main-content {
+  margin: 6em 0em -10em 0em;
+  border: none;
+}
 /*  */
 /*  */
 
@@ -894,6 +905,10 @@ footer #myTopBtn {
     text-align: left;
     padding-bottom: 20px;
   } */
+
+  .page-not-found .main-content {
+    margin: 10em 0em -10em 0em;
+  }
 }
 
 /* responsive small screen*/
