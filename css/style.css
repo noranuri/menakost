@@ -674,6 +674,9 @@ footer #myTopBtn {
   color: #314045;
 }
 
+footer a:hover {
+  color: #84a7a6;
+}
 /* back to top button */
 #myTopBtn {
   /* display: none; */
