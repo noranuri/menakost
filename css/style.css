@@ -671,6 +671,7 @@ footer#home_footer {
 footer a,
 footer #myTopBtn {
   text-decoration: none;
+  color: #314045;
 }
 
 /* back to top button */
