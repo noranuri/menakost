@@ -64,6 +64,7 @@ h5 {
 /* LINKS */
 a {
   color: #314045;
+  color: #588593;
 }
 
 h1 a {
@@ -377,6 +378,10 @@ section.internal-links {
 .list li a:hover {
   background-color: #84a7a6;
   padding: 0.5em;
+}
+
+a:hover {
+  background-color: rgba(88, 133, 147, 0.5);
 }
 
 /* MAIN SECTION */
@@ -831,6 +836,9 @@ footer #myTopBtn {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   }
 
+  .home blockquote {
+    margin-top: 0px;
+  }
   /* css grid */
   /* home, projekte, texte */
   .container {
