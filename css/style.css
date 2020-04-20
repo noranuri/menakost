@@ -270,8 +270,8 @@ div.fixed-header {
 .home blockquote,
 .aktuell blockquote {
   margin-top: 0px;
-  margin-bottom: 35px;
-
+  margin-bottom: 0px;
+  padding-bottom: 20px;
   max-width: unset;
 }
 
@@ -284,6 +284,10 @@ div.fixed-header {
   margin: 0 auto;
 }
 
+.home blockquote h5,
+.aktuell blockquote h5 {
+  margin-top: -20px;
+}
 /* MAIN SECTION */
 /* about me*/
 blockquote {
