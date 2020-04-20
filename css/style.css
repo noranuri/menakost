@@ -398,7 +398,13 @@ section.internal-links {
 }
 
 a:hover {
-  background-color: rgba(88, 133, 147, 0.5);
+  color: #84a7a6;
+  background-color: none;
+}
+
+.fixed-header header h1 a:hover {
+  color: #314045;
+  background-color: none;
 }
 
 /* MAIN SECTION */
