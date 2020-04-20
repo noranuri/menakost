@@ -267,6 +267,23 @@ div.fixed-header {
   border-bottom: 1px solid #314045;
 }
 
+.home blockquote,
+.aktuell blockquote {
+  margin-top: 0px;
+  margin-bottom: 35px;
+
+  max-width: unset;
+}
+
+.home blockquote p,
+.aktuell blockquote p {
+  margin: 0px;
+  padding: 10px;
+  font-size: 1.1em;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
 /* MAIN SECTION */
 /* about me*/
 blockquote {
@@ -840,9 +857,6 @@ footer a:hover {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   }
 
-  .home blockquote {
-    margin-top: 0px;
-  }
   /* css grid */
   /* home, projekte, texte */
   .container {
