@@ -11,11 +11,9 @@ satisfy any
 Order Deny,Allow
 Deny from all
 
-#
+#alter Eintrag
 
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
-
-
