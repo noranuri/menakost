@@ -1,4 +1,17 @@
+AuthName "restricted"
+AuthType Basic
+#Pfad zur Datei auf dem Server, bspw., wenn im jeweiligen (Sub-)Domain-root:
+AuthUserFile .htpasswd
 
+#je nach Setting auch so etwas wie:
+#AuthUserFile /home/k-webs/public_html/dev.k-webs.ch/.htpasswd
+
+require valid-user
+satisfy any
+Order Deny,Allow
+Deny from all
+
+#
 
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
